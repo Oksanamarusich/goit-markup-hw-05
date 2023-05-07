@@ -704,7 +704,7 @@ margin-bottom: 16px;
   height: 24px;
   padding:0;
  
-  background: var(--border-buttoms);
+  background-color: var(--border-buttoms);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -720,9 +720,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-close-icon:active {
    fill: #ffffff;
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus,
-.modal-close-btn:active {
+.modal-close-btn:hover, 
+.modal-close-btn:focus, 
+.modal-close-btn:active  {
   border: none;
   background-color: var(--secondary-accent-color);
   fill:#ffffff;
